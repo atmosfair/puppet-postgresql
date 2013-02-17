@@ -3,8 +3,8 @@
 #
 define postgresql::dbcreate (
   $role,
-  $encoding     = 'UTF8',
-  $locale       = 'en_US.UTF-8',
+  $encoding     = 'SQL_ASCII',
+  $locale       = 'C',
   $template     = 'template1',
   $password     = '',
   $conntype     = 'host',
